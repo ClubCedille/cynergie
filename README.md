@@ -2,7 +2,7 @@
 
 ## But
 
-Cette API sert  faciliter et sécuriser la communication avec la base de données Prometheus.
+Cet API sert à faciliter et à sécuriser la communication avec la base de données Prometheus.
 
 ## Conception 
 
@@ -10,9 +10,11 @@ Cette API sert  faciliter et sécuriser la communication avec la base de donnée
 
 - Exemple :
 
+Adresse :
+
 `http://localhost:9090/api/v1/query_range?query=probe_http_duration_seconds&start=2018-04-07T00:00:00.781Z&end=2018-04-07T23:59:59.781Z&step=1m`
 
-Response : JSON
+Réponse : JSON
 
 ```
 {
@@ -41,13 +43,13 @@ Response : JSON
 
 ### Cynergie API
 
-- Structurer les données de la reponse de Prometheus  API
+- Structurer les données de la réponse de l'API de Prometheus
 
 - Exemple :
 
-Query : `GET http://cynergie.cedille.club/api/07/04/2018`
+Requête : `GET http://cynergie.cedille.club/api/07/04/2018`
 
-Response : JSON
+Réponse : JSON
 
 ```
 {
@@ -67,7 +69,7 @@ Response : JSON
 
 ```
 
-### Source 
+### Sources
 
 - https://prometheus.io/docs/prometheus/latest/querying/api/
 - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
