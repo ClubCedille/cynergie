@@ -1,0 +1,27 @@
+{
+  "name": "cynergie-data-api",
+  "version": "1.0.0",
+  "description": "api cynergie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClubCedille/cynergie-data-api.git"
+  },
+  "author": "jalil le meilleur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClubCedille/cynergie-data-api/issues"
+  },
+  "homepage": "https://github.com/ClubCedille/cynergie-data-api#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.3"
+  }
+}
